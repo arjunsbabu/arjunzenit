@@ -1,0 +1,23 @@
+---
+Cluster:
+  Geography: "NA"
+  Size: "Standard"
+  Purpose: "Client Sandbox Provisioning"
+  Users:
+    User2:
+      Role: "cluster-admin"
+      FullName: "CHINH VO"
+      IBMID: "chinh@ca.ibm.com"
+      Identity: "IAM:IBMid-120000E59K"
+    User1:
+      Role: "cluster-admin"
+      FullName: "Kara Terrell"
+      IBMID: "kara.terrell@ibm.com"
+      Identity: "IAM:IBMid-504X3A3SBF"
+    User3:
+      Role: "edit"
+      FullName: "Aisawan Bosarakham"
+      IBMID: "aisawan.bosa@ibm.com"
+      Identity: "IAM:IBMid-550002W67G"
+  Name: "nokia-1578935224437"
+  Provider: "ibmcloud"
