@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('test') {
       steps {
-        readYaml(file: 'userspec.yaml', text: 'Cluster')
+        readYaml(file: 'userspec.yaml', text: 'Cluster:')
       }
     }
   }
